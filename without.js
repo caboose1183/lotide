@@ -21,7 +21,6 @@ function without (source, itemsToRemove) {
 
   for (let item of source) {
     if (!itemsToRemove.includes (item)) {
-      console.log (item)
       newArray.push (item);
     }
   }
