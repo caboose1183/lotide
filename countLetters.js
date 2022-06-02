@@ -23,4 +23,4 @@ const countLetters = function (string) {
   return letterCount;
 }
 
-console.log (countLetters("This is a practice string"))
+// console.log (countLetters("This is a practice string"))
