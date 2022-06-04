@@ -75,8 +75,8 @@ const eqObjects = function (object1, object2) {
     let item1 = object1[key];
     let item2 = object2[key];
 
-    let object1Check = Array.isArray (item1) === false && typeof item1 == 'object';
-    let object2Check = Array.isArray (item2) === false && typeof item2 == 'object';
+    let object1Check = Array.isArray (item1) === false && typeof item1 === 'object';
+    let object2Check = Array.isArray (item2) === false && typeof item2 === 'object';
     let bothObjectCheck = object1Check && object2Check;
 
     if (bothObjectCheck === false && item1 !== item2
