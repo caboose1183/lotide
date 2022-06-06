@@ -1,4 +1,4 @@
-function joinList(array) {
+const joinList = function(array) {
   let list = '';
 
   for (let i = 0; i < array.length; i++) {
@@ -9,6 +9,6 @@ function joinList(array) {
     }
   }
   return list;
-}
+};
 
 module.exports = joinList;

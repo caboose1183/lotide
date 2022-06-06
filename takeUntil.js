@@ -7,9 +7,9 @@ const takeUntil = function(array, callback) {
 
 
     } else {
-      finalArray.push (item)
+      finalArray.push(item);
     }
   }
-}
+};
 
 module.exports = takeUntil;

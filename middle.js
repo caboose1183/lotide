@@ -1,4 +1,4 @@
-function middle(array) {
+const middle = function(array) {
   let newArray = [];
 
   if (array.length <= 2) {
@@ -6,7 +6,7 @@ function middle(array) {
   }
 
   if (array.length % 2 !== 0) {
-    let index = Math.ceil(array.length / 2)
+    let index = Math.ceil(array.length / 2);
 
     newArray.push(array[index - 1]);
 
@@ -14,14 +14,14 @@ function middle(array) {
   }
 
   if (array.length % 2 === 0) {
-    let indexLow = (array.length / 2) - 1
-    let indexHigh = array.length / 2
+    let indexLow = (array.length / 2) - 1;
+    let indexHigh = array.length / 2;
 
     newArray.push(array[indexLow]);
     newArray.push(array[indexHigh]);
 
     return newArray;
   }
-}
+};
 
 module.exports = middle;

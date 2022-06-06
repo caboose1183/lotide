@@ -1,6 +1,6 @@
 {
   "name": "@caboose1183/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a mini clone of the library lodash",
   "main": "main.js",
   "directories": {

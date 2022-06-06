@@ -1,13 +1,13 @@
-function without (source, itemsToRemove) {
+const without = function(source, itemsToRemove) {
   let newArray = [];
 
   for (let item of source) {
-    if (!itemsToRemove.includes (item)) {
-      newArray.push (item);
+    if (!itemsToRemove.includes(item)) {
+      newArray.push(item);
     }
   }
-  console.log (newArray);
+  console.log(newArray);
   return newArray;
-}
+};
 
 module.exports = without;

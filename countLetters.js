@@ -1,5 +1,5 @@
-const countLetters = function (string) {
-  string = string.replace (/\s/g, '');
+const countLetters = function(string) {
+  string = string.replace(/\s/g, '');
   string = string.toLowerCase();
   let letterCount = {};
 
@@ -7,11 +7,11 @@ const countLetters = function (string) {
     if (letterCount[letter] === undefined) {
       letterCount[letter] = 1;
     } else {
-      letterCount[letter] ++;
+      letterCount[letter]++;
     }
   }
 
   return letterCount;
-}
+};
 
 module.exports = countLetters;

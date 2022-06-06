@@ -7,6 +7,6 @@ const min = function(numbers) {
     }
   }
   return lowestNum;
-}
+};
 
 module.exports = min;
