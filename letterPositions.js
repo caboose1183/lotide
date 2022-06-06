@@ -54,3 +54,5 @@ const letterPositions = function (sentence) {
 //   e: [9, 16, 22],
 //   n: [12]
 // }.e);
+
+module.exports = letterPositions;

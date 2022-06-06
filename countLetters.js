@@ -24,3 +24,5 @@ const countLetters = function (string) {
 }
 
 // console.log (countLetters("This is a practice string"))
+
+module.exports = countLetters;

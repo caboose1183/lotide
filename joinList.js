@@ -31,3 +31,5 @@ function joinList(array) {
 // const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
 // const concepts = joinList(conceptList);
 // console.log(`Today I learned about ${concepts}.`);
+
+module.exports = joinList;

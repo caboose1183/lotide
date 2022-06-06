@@ -60,3 +60,4 @@ const assertObjectsEqual = function(object1, object2) {
 
 // assertObjectsEqual (ab, ba)
 
+module.exports = assertObjectsEqual;

@@ -26,3 +26,5 @@ const min = function(numbers) {
 
 // const temperatures = [45, 10, -20, 0, 3, -20];
 // console.log(`The coldest temperature amongst 45C, 10C, -20C, 0C, 3C and -20C is ${min(temperatures)}C`);
+
+module.exports = min;

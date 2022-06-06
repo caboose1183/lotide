@@ -30,31 +30,24 @@ const reverse = require('./reverse');
 
 
 module.exports = {
-  assertArraysEqual:   assertArraysEqual,
-  assertEqual:   assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-
-  eqArrays:   eqArrays,
-  eqObjects:   eqObjects,
-
-  head:   head,
-  tail:   tail,
-  middle: middle,
-
-  takeUntil:   takeUntil,
-  without:   without,
-
-  countLetters:   countLetters,
-  countOnly:   countOnly,
-  letterPositions: letterPositions,
-
-  findKey:   findKey,
-  findKeyByValue:   findKeyByValue,
-
-  flatten: flatten,
-  joinList: joinList,
-
-  map: map,
-  min: min,
-  reverse: reverse,
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  eqArrays,
+  eqObjects,
+  head,
+  tail,
+  middle,
+  takeUntil,
+  without,
+  countLetters,
+  countOnly,
+  letterPositions,
+  findKey,
+  findKeyByValue,
+  flatten,
+  joinList,
+  map,
+  min,
+  reverse
 };

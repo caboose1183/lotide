@@ -32,3 +32,5 @@ function assertArraysEqual(array1, array2) {
 // console.log(results1);
 
 // assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't'])
+
+module.exports = map;

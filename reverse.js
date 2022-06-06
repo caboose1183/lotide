@@ -11,3 +11,6 @@ function reverse (string) {
 for (let j = 2; j < process.argv.length; j++) {
   console.log(reverse (process.argv[j]));
 }
+
+
+module.exports = reverse;
